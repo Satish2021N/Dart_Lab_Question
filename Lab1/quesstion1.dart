@@ -1,5 +1,4 @@
 // Write a dart program to check if the number is odd or even.
-
 void main() {
   int num = 4;
   EvenOdd(num);

@@ -34,7 +34,6 @@ void toDotasks(Map<int, String> tasks) {
 }
 
 void add(Map<int, String> tasks) {
-  // print('add');
   stdout.write("Number the task : ");
   int key = int.parse(stdin.readLineSync()!);
   stdout.write("Enter the task : ");
@@ -52,7 +51,6 @@ void add(Map<int, String> tasks) {
 }
 
 void remove(Map<int, String> tasks) {
-  // print('remove');
   stdout.write("Enter task number you want to remove : ");
   int key = int.parse(stdin.readLineSync()!);
   tasks.remove(key);
